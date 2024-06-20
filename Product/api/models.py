@@ -9,7 +9,7 @@ class User(AbstractUser):
     email = models.EmailField(max_length=254,unique=True)
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = [] # take 'username' if required
-    # objects = CustomUserManager()
+    objects = CustomUserManager()
     
     def __str__(self):
         return self.email #it will by deafult show the email of user

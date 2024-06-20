@@ -8,7 +8,6 @@ import Features from '../Components/Features'
 import Team from '../Components/Team'
 import Feedback from '../Components/Feedback'
 import Footer from '../Components/Footer'
-import Navbar2 from '../Components/Navbar2'
 const Rough = () => {
   return (
     <div className='w-full max-w-full'>
