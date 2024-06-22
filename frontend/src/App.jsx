@@ -1,5 +1,5 @@
 import { createHashRouter, RouterProvider } from "react-router-dom";
-import Home from "./Pages/Home";
+// import Home from "./Pages/Home";
 // import Login from "./Pages/Login";
 import Protected from "./Components/Protected";
 import Rough from "./Pages/Rough";
@@ -47,14 +47,6 @@ const router = createHashRouter([
   {
     path: "/confirm",
     element: <Confirmation />,
-  },
-  {
-    path: "/home",
-    element: (
-      <Protected>
-        <Home />
-      </Protected>
-    ),
   },
 ]);
 
